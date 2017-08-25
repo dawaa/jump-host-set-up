@@ -2,11 +2,12 @@ How to set up a Jump Host
 ============================
 
 ## Table of Contents
-    * [Create your EC2 Container](create-your-ec2-container)
-    * [Install AWS CLI](install-aws--cli)
-        * [Configure](configure-aws-cli)
-    * [SSH via JumpHost](ssh-via-jumphost)
-    * [Helpful sources](helpful-sources)
+* [Create your EC2 Container](create-your-ec2-container)
+* [Install AWS CLI](install-aws-cli)
+    * [Configure](configure-aws-cli)
+* [Create / Manage users](create--manage-users-for-the-instances-within-vpc)
+* [SSH via JumpHost](ssh-via-jumphost)
+* [Helpful sources](helpful-sources)
 
 ## Create your EC2 Container
 
@@ -14,11 +15,10 @@ How to set up a Jump Host
 Firstly we must grab the awscli bundle from amazon to our newly created
 ec2 instance..
 > Make sure Python is installed...
+> Make sure you have `zip` and `unzip` packages installed
 
 `$ curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"`
 
-
-> Make sure you have `zip` and `unzip` packages installed
 
 Unzip the bundle...
 
