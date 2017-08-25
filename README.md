@@ -15,6 +15,8 @@ How to set up a Jump Host
 Firstly we must grab the awscli bundle from amazon to our newly created
 ec2 instance..
 > Make sure Python is installed...
+
+
 > Make sure you have `zip` and `unzip` packages installed
 
 `$ curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"`
