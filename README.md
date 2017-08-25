@@ -3,6 +3,9 @@ How to set up a Jump Host
 
 ## Table of Contents
 * [Create your EC2 Container](create-your-ec2-container)
+* [Instance(s) Configuration](instances-configuration)
+    * [Instance security](instances-security)
+    * [Jump Host security](jump-host-security)
 * [Install AWS CLI](install-aws-cli)
     * [Configure](configure-aws-cli)
 * [Create / Manage users](create--manage-users-for-the-instances-within-vpc)
@@ -10,6 +13,21 @@ How to set up a Jump Host
 * [Helpful sources](helpful-sources)
 
 ## Create your EC2 Container
+
+## Instances(s) Configuration
+To increase our security we will configure our instances..
+
+All instances running should be very limited to the open world, even the SSH
+port should only be limited to be accessed via the jump-host and nothing else.
+
+The "Jump Host" itself will only have two missions and that's acting as a
+security layer for the VPC. Second one is to make a developers life a little
+easier since nowadays it's almost waaay to easy to set up a new server and to
+keep track of them or adding them to the .ssh/config can be tiresome
+
+### Instance security
+
+### Jump Host security
 
 ## Install "aws-cli"
 Firstly we must grab the awscli bundle from amazon to our newly created
