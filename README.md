@@ -3,7 +3,7 @@ How to set up a Jump Host
 
 ## Table of Contents
 * [Create your EC2 Container](create-your-ec2-container)
-* [Instance(s) Configuration](instances-configuration)
+* [Instance(s) Configuration](instancess-configuration)
     * [Instance security](instances-security)
     * [Jump Host security](jump-host-security)
 * [Install AWS CLI](install-aws-cli)
